@@ -1,1 +1,1 @@
-# stackx_refazendo_modulo_de_java
+# Aplicações práticas do Módulo JAVA - STACKX

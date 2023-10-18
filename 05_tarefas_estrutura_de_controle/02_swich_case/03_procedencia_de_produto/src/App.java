@@ -2,44 +2,44 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Scanner leitor = new Scanner(System.in);
-        double precoProduto = 0.0;
-        int codigoOrigemProduto = 0;
-        String procedenciaProduto = "";
+        Scanner reader = new Scanner(System.in);
+        double priceProduct = 0.0;
+        int codeOrigemProduct = 0;
+        String originProduct = "";
 
         System.out.println("\nENTRE COM OS DADOS DO PRODUTO");
         System.out.print("Preço do produto: R$ ");
-        precoProduto = leitor.nextDouble();
+        priceProduct = reader.nextDouble();
 
         System.out.print("Código de origem do produto: ");
-        codigoOrigemProduto = leitor.nextInt();
+        codeOrigemProduct = reader.nextInt();
 
-        switch (codigoOrigemProduto) {
+        switch (codeOrigemProduct) {
             case 1:
-                procedenciaProduto = "Sul";
+                originProduct = "Sul";
                 break;
 
             case 2:
-                procedenciaProduto = "Norte";
+                originProduct = "Norte";
                 break;
 
             case 3:
-                procedenciaProduto = "Leste";
+                originProduct = "Leste";
                 break;
 
             case 4:
-                procedenciaProduto = "Oeste";
+                originProduct = "Oeste";
                 break;
 
             case 5:
             case 6:
-                procedenciaProduto = "Nordeste";
+                originProduct = "Nordeste";
                 break;
 
             case 7:
             case 8:
             case 9:
-                procedenciaProduto = "Sudeste";
+                originProduct = "Sudeste";
                 break;
 
             case 10:
@@ -53,7 +53,7 @@ public class App {
             case 18:
             case 19:
             case 20:
-                procedenciaProduto = "Centro-Oeste";
+                originProduct = "Centro-Oeste";
                 break;
 
             case 21:
@@ -66,19 +66,19 @@ public class App {
             case 28:
             case 29:
             case 30:
-                procedenciaProduto = "Noroeste";
+                originProduct = "Noroeste";
                 break;
 
             default:
-                procedenciaProduto = "Sem procedência";
+                originProduct = "Sem procedência";
                 break;
         }
 
         System.out.println("\nEXIBIÇÃO DE DADOS");
-        System.out.printf("Código de origem do produto: %d%n", codigoOrigemProduto);
-        System.out.printf("Preço do produto: R$ %.2f%n", precoProduto);
-        System.out.printf("Procedência do produto: %s%n%n", procedenciaProduto);
+        System.out.printf("Código de origem do produto: %d%n", codeOrigemProduct);
+        System.out.printf("Preço do produto: R$ %.2f%n", priceProduct);
+        System.out.printf("Procedência do produto: %s%n%n", originProduct);
 
-        leitor.close();
+        reader.close();
     }
 }

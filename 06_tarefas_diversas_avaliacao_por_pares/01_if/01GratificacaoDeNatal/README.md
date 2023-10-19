@@ -1,18 +1,14 @@
-## Getting Started
+1. Gratificação de natal (IF)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+    - Uma empresa decidiu dar uma gratificação de Natal a seus funcionários, baseada no número de horas extras e no número de horas que o funcionário faltou ao trabalho. 
+    
+    - O valor do prêmio é obtido pela consulta à tabela que se segue, na qual:
 
-## Folder Structure
+        H = número de horas extras – (2/3 * ( número de horas falta ))
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    H (MINUTOS)         PRÊMIO (R$)
+    >= 2.401            500,00
+    1.801 até 2.400     400,00
+    1.201 até 1.800     300,00
+    600   até 1.200     200,00    
+    < 600               100,00

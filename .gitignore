@@ -13,3 +13,5 @@ build
 bin
 classes
 *~
+compile.sh
+run.sh

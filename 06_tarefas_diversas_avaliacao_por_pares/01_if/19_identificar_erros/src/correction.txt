@@ -26,15 +26,21 @@
             - Erro:
                 - Linha 1: A condição dentro de parênteses não pode receber atribuição
                 - Linha 1: Ao final se aplica 'ENTAO'
-                - Linha 3: Falta (;)
-                - Linha 5: Finalizar a estrutura com 'FIMSE'
+                - Linha 3: O termo SENAO não aplica com uma condição explícita
+                - Linha 3: Manter somente o SENAO
+                - linha 4: Acrescentar 'SE (genero == 2) ENTAO
+                - Linha 5: 'mostre ("Feminino")';
+                - Linha 6: Finalizar a estrutura do segundo SE com 'FIMSE'
+                - Linha 7: Finalizar a estrutura do primeira SE com 'FIMSE'
         
             - Correção:
                 - Linha 1   se (genero == 1) entao
                 - Linha 2       mostre ("Masculino");
-                - Linha 3   senão (genero == 2)
-                - Linha 4       mostre ("Feminino"); 
-                - Linha 5   fimse
+                - Linha 3   senão 
+                - Linha 4       se (genero == 2) entao
+                - Linha 5           mostre ("Feminino"); 
+                - Linha 6       fimse
+                - Linha 7   fimse
 
 
         - c)
@@ -47,11 +53,12 @@
             - Erro:
                 - Linha 1: Falta parantêses envolvendo a condição
                 - Linha 1: Ao final se aplica 'ENTAO'
+               -  Linha 2: Substituir (,) por (.)
                 - Linha 5: Finalizar a estrutura com 'FIMSE'
 
             - Correção:
                 - Linha 1   se (preco > 10.50) entao
-                - Linha 2       preco = preco * 1,2;
+                - Linha 2       preco = preco * 1.2;
                 - Linha 3   senão
                 - Linha 4       preco = preco * 1.35;
                 - Linha 5   fimse

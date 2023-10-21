@@ -1,0 +1,57 @@
+ - Identifique e corrija os erros em cada um dos itens seguintes. 
+
+    - Obs: Comente o erro e a correção feita. 
+        - a)
+            - Linha 1   se (idade >= 65); 
+            - Linha 2       mostre ("melhor idade");
+            - Linha 3
+
+            - Erro:
+                - Linha 1: Ao final não aplica (;) e sim 'ENTAO'
+                - Linha 3: Finalizar a estrutura com 'FIMSE'
+
+            - Correção:
+                - Linha 1   se (idade >= 65) entao
+                - Linha 2       mostre ("melhor idade");
+                - Linha 3   fimse
+
+
+        - b)
+            - Linha 1   se (genero = 1) 
+            - Linha 2       mostre ("Masculino")
+            - Linha 3   senão (genero == 2)
+            - Linha 4       mostre ("Feminino"); 
+            - Linha 5
+
+            - Erro:
+                - Linha 1: A condição dentro de parênteses não pode receber atribuição
+                - Linha 1: Ao final se aplica 'ENTAO'
+                - Linha 3: Falta (;)
+                - Linha 5: Finalizar a estrutura com 'FIMSE'
+        
+            - Correção:
+                - Linha 1   se (genero == 1) entao
+                - Linha 2       mostre ("Masculino");
+                - Linha 3   senão (genero == 2)
+                - Linha 4       mostre ("Feminino"); 
+                - Linha 5   fimse
+
+
+        - c)
+            - Linha 1   se preco > 10.50
+            - Linha 2       preco = preco * 1,2;
+            - Linha 3   senão
+            - Linha 4       preco = preco * 1.35;
+            - Linha 5
+
+            - Erro:
+                - Linha 1: Falta parantêses envolvendo a condição
+                - Linha 1: Ao final se aplica 'ENTAO'
+                - Linha 5: Finalizar a estrutura com 'FIMSE'
+
+            - Correção:
+                - Linha 1   se (preco > 10.50) entao
+                - Linha 2       preco = preco * 1,2;
+                - Linha 3   senão
+                - Linha 4       preco = preco * 1.35;
+                - Linha 5   fimse

@@ -1,13 +1,28 @@
 - Dado o trecho do programa esquemático abaixo, responda:
-    - a) Quais comandos serão executados se cond1 e cond2 forem verdadeiras e cond3 for falsa?
-        - 
+    
+    - a) Quais comandos serão executados se cond1 e cond2 forem verdadeiras e cond3 for falsa? 
+        - comando1
+        - comando2
+        - comando7
 
     - b) Quais comandos serão executados se cond1 for falsa, cond2 e Cond3 forem verdadeiras?
+        - comando3
+        - comando4
+        - comando6
+        - comando7
 
     - c) Quais comandos serão executados se cond1, cond2 e cond3 forem falsas?
-
+        - comando5
+        - comando6
+        - comando7
 
     - d) Que condições devem ser verdadeiras e quais devem ser falsas para que comando4, comando6 e comando7 sejam executados?
+        - Condições devem ser verdadeiras:
+            - cond3
+
+        - Condições devem ser falsas:
+            - cond1
+            - cond2
 
 
     Linha 1     inicio

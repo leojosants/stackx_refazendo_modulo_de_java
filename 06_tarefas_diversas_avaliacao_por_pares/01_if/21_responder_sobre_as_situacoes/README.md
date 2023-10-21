@@ -7,7 +7,6 @@
 
         - c) Quais comandos serão executados se cond1, cond2 e cond3 forem falsas?
 
-
         - d) Que condições devem ser verdadeiras e quais devem ser falsas para que comando4, comando6 e comando7 sejam executados?
 
 

@@ -1,0 +1,1 @@
+1) Criar um programa que receba três nomes de pessoas e mostre-os na tela.

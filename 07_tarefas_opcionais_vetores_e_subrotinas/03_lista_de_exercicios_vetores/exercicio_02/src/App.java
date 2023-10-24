@@ -2,23 +2,23 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         int numbers[] = { 5, 10, 8, 4, 9, 16, 28, 40, 80, 10 };
-        int soma = SomaValores(numbers);
-        ExibeDados(soma);
+        int sumNumbers = ReturnsSumNumbers(numbers);
+        DisplaysData(sumNumbers);
     }
 
     /* SUB-ROUTINES */
-    public static int SomaValores(int numbers[]) {
-        int soma = 0;
+    public static int ReturnsSumNumbers(int numbers[]) {
+        int sumNumbers = 0;
 
         for (int i = 0; i < numbers.length; i++) {
-            soma += numbers[i];
+            sumNumbers += numbers[i];
         }
 
-        return soma;
+        return sumNumbers;
     }
 
-    public static void ExibeDados(int soma) {
+    public static void DisplaysData(int sumNumbers) {
         System.out.println("\nExibidindo dados");
-        System.out.printf("Soma de todos os valores: %d%n", soma);
+        System.out.printf("Soma de todos os valores: %d%n", sumNumbers);
     }
 }

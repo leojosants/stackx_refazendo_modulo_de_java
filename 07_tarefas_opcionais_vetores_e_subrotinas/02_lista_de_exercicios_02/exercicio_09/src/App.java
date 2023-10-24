@@ -12,7 +12,7 @@ public class App {
             
             int valueA = ReturnsValue(scanner, 'A');
             int valueB = ReturnsValue(scanner, 'B');
-            int sum = RetornaSum(valueA, valueB);
+            int sum = ReturnsSum(valueA, valueB);
             boolean comparison = ReturnsComparison(sum);
             
             DisplaysData(valueA, valueB, sum, comparison);
@@ -53,7 +53,7 @@ public class App {
         return value;
     }
 
-    public static int RetornaSum(int valueA, int valueB) {
+    public static int ReturnsSum(int valueA, int valueB) {
         int sum = valueA + valueB;
         return sum;
     }

@@ -10,7 +10,7 @@ public class App {
         
             int numbers[] = { 91, 10, 50, 89, 45, 80, 2, 45, 3, 105, 95, 13, 26, 49, 50 };
             int numbersCopy[] = PerformsVectorCopy(numbers);
-            int numberReceived = RecebeDadosDoTeclado(scanner);
+            int numberReceived = ReceivesDataFromTheKeyboard(scanner);
             SearchForElementsInTheVector(numbersCopy, numberReceived);
         
         } catch (InputMismatchException e) {
@@ -32,7 +32,7 @@ public class App {
         return vectorCopied;
     }
 
-    public static int RecebeDadosDoTeclado(Scanner scanner) {
+    public static int ReceivesDataFromTheKeyboard(Scanner scanner) {
         int number = 0;
 
         do {

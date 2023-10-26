@@ -1,4 +1,4 @@
-25. Credito para alunos (IF)
+# Exercício 25 - Credito para alunos (IF)
 
     - A StackX abriu uma linha de crédito para os alunos. 
     

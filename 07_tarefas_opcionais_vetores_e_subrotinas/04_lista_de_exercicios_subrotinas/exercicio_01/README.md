@@ -11,6 +11,7 @@
 
         - Criar uma sub-rotina que receba dois parâmetros (vetor, e o número a ser pesquisado);
 
+      
         - A sub-rotina deverá:
             
             - Verificar a existência do número a ser pesquisado;

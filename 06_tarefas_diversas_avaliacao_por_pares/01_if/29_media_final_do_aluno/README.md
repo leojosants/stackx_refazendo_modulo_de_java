@@ -1,4 +1,4 @@
-29. Média final do faluno (IF)
+# Exercício 29 - Média final do faluno (IF)
 
     - Desenvolva um programa para determinar:
         - Média final;

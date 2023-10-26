@@ -1,7 +1,9 @@
-09)	Criar um programa que:
+# Exercício 09
 
-    - Leia os valores A e B;
-    
-    - Compare se a soma de A e B é divisível por 2;
-    
-    - Imprima a resposta na tela.
+    - Criar um programa que:
+
+        - Leia os valores A e B;
+        
+        - Compare se a soma de A e B é divisível por 2;
+        
+        - Imprima a resposta na tela.

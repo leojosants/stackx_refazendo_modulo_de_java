@@ -1,4 +1,4 @@
-4. Salário bruto (IF)
+# Exercício 04 - Salário bruto (IF)
 
     - Faça um programa que receba o salário bruto de um funcionário e, usando a tabela a seguir, calcule e mostre o valor a receber. 
     

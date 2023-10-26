@@ -1,4 +1,4 @@
-17. Triângulo (IF)
+# Exercício 17 - Triângulo (IF)
 
     - Escreva um programa que leia as medidas dos lados de um triângulo;
     

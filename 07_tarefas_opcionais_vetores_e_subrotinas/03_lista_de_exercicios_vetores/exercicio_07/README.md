@@ -2,6 +2,7 @@
 
     - Criar um programa que preencha um vetor de inteiros de 10 posições, via teclado;
     
+ 
     - Após o preenchimento do vetor, o programa deverá:
     
         - Verificar quais são os elementos ímpares

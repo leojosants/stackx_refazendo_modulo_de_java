@@ -1,4 +1,4 @@
-32. Valor de venda (IF)
+# Exercício 32 - Valor de venda (IF)
 
     - Um comerciante calcula o valor de venda, tendo em vista a tabela a seguir:
 

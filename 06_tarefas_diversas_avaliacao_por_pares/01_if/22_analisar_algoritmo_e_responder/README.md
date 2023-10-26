@@ -1,4 +1,4 @@
-22. Analisar algoritmo e responder (IF)
+# Exercício 22 - Analisar algoritmo e responder (IF)
 
     - Para que faixa de valores da variável x o seguinte segmento de código imprime a letra C?
 

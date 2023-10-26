@@ -1,4 +1,4 @@
-5. Empresa com 10 funcionários (While)
+# Exercício 05 - Empresa com 10 funcionários (While)
 
     - Uma empresa possui dez funcionários com as seguintes características: 
         - Código;

@@ -1,4 +1,4 @@
-2. Idade e peso (IF)
+# Exercício 02 - Idade e peso (IF)
 
     - Faça um programa que receba a idade e o peso de uma pessoa. 
     

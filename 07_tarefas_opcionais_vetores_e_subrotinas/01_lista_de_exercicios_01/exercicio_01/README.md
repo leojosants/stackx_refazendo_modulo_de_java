@@ -1,1 +1,7 @@
-1) Criar um programa que receba três nomes de pessoas e mostre-os na tela.
+# Exercício 01
+
+    - Criar um programa que:
+        
+        - Receba três nomes de pessoas;
+        
+        - E mostre-os na tela.

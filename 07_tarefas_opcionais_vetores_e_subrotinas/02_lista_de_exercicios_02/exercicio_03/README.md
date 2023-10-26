@@ -1,10 +1,14 @@
-03)	Crie um programa que:
+# Exercício 03
 
-    - Receba a quantidade de maçãs compradas;
+    - Crie um programa que:
 
-    - Calcule e escreva o custo total da compra.
+        - Receba a quantidade de maçãs compradas;
 
-    - Sabe-se que:
-        - As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia;
-        
-        - As maçãs custam R$ 1,00 se forem compradas pelo menos 12. 
+        - Calcule e escreva o custo total da compra.
+
+
+        - Sabe-se que:
+
+            - As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia;
+            
+            - As maçãs custam R$ 1,00 se forem compradas pelo menos 12. 

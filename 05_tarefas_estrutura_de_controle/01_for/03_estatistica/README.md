@@ -1,4 +1,4 @@
-3. Estruturas condicionais e de repetição: Estatística (FOR)
+# Exercício 03 - Estruturas condicionais e de repetição: Estatística (FOR)
 
     - Foi feita uma estatística em cinco cidades brasileiras para coletar dados sobre acidentes de trânsito. 
     

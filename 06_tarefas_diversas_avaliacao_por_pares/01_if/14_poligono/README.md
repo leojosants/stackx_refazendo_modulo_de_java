@@ -1,4 +1,4 @@
-14. Polígono (IF)
+# Exercício 14 - Polígono (IF)
 
     - Escreva um programa para ler o número de lados de um polígono regular e a medida do lado (em cm).
 

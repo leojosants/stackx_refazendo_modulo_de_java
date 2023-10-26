@@ -1,4 +1,4 @@
-23. Número múltiplo de 3 (IF)
+# Exercício 23 - Número múltiplo de 3 (IF)
 
     - Desenvolva um programa que dado um número, imprima uma das mensagens:
     

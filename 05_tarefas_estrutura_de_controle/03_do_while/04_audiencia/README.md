@@ -1,4 +1,4 @@
-4. Estruturas condicionais e de repetição: Audiência (Do-While)
+# Exercício 04 - Estruturas condicionais e de repetição: Audiência (Do-While)
 
     - Foi feita uma pesquisa sobre a audiência de canal de TV em várias casas de uma cidade, em determinado dia. 
      

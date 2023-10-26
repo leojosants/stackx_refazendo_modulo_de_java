@@ -1,7 +1,9 @@
-8) Criar um programa que:
+# Exercício 08
 
-- Receba o ano de nascimento de uma pessoa;
+    - Criar um programa que:
 
-- Imprima a sua idade atual;
+        - Receba o ano de nascimento de uma pessoa;
 
-- Imprima também a sua idade em 2050.
+        - Imprima a sua idade atual;
+
+        - Imprima também a sua idade em 2050.

@@ -1,4 +1,4 @@
-30. Venda de um produto (IF)
+# Exercício 30 - Venda de um produto (IF)
 
     - Um comerciante comprou um produto e quer vendê-lo:
         - Com um lucro de 45%:

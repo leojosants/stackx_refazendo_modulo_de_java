@@ -1,4 +1,4 @@
-34. Impressão de receita (IF)
+# Exercício 34 - Impressão de receita (IF)
 
     - Criar um programa que a partir da idade e peso do paciente:
         - Calcule a dosagem de determinado medicamento;

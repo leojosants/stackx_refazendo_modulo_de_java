@@ -1,4 +1,4 @@
-7. Conjunto de valores (While)
+# Exercício 07 - Conjunto de valores (While)
 
     - Faça um programa que leia um conjunto não determinado de valores e mostre o valor lido, seu quadrado, seu cubo e sua raiz quadrada. 
     

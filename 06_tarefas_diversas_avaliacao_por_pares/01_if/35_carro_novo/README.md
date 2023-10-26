@@ -1,4 +1,4 @@
-35. Carro novo (IF)
+# Exercício 35 - Carro novo (IF)
 
     - O custo ao consumidor de um carro novo é a soma do custo de fábrica com a porcentagem do distribuidor e com os impostos, ambos aplicados ao custo de fábrica. 
     
@@ -10,4 +10,4 @@
     Até    R$ 12.000,00         5                       Isento
     Entre  R$ 12.000,00         10                      15
            R$ 25.000,00      
-    Acima R$ 25.000,00         15                      20
+    Acima R$ 25.000,00          15                      20

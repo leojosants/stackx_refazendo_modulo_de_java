@@ -1,4 +1,4 @@
-3. Idade de um nadador (IF)
+# Exercício 03 - Idade de um nadador (IF)
 
     - Faça um programa que receba a idade de um nadador e mostre sua categoria, usando as regras a seguir. 
     

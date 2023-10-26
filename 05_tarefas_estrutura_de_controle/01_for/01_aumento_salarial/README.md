@@ -1,4 +1,4 @@
-1. Estruturas condicionais e de repetição: Aumento salarial (FOR)
+# Exercício 01 - Estruturas condicionais e de repetição: Aumento salarial (FOR)
 
     - Um funcionário de uma empresa recebe, anualmente, aumento salarial. Sabe-se que:
 

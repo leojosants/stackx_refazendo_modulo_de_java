@@ -1,4 +1,4 @@
-33. Endocrino (IF)
+# Exercício 33 - Endocrino (IF)
 
     - Um endocrinologista deseja controlar a saúde de seus pacientes e, para isso, se utiliza do Índice de Massa Corporal (IMC). 
     

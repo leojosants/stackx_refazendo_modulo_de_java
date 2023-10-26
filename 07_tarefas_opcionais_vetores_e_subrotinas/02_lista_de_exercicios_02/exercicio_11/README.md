@@ -1,9 +1,12 @@
-11)	Criar um programa que:
+# Exercício 11
 
-    - Receba pelo teclado um número positivo inteiro N;
-    
-    - Apresentar na tela a soma dos N primeiros números;
-    
-        - Por exemplo: 
+    - Criar um programa que:
+
+        - Receba pelo teclado um número positivo inteiro N;
         
-            - Se N = 5, então SOMA = 1 + 2 + 3 + 4 + 5
+      
+        - Apresentar na tela a soma dos N primeiros números;
+        
+            - Por exemplo: 
+            
+                - Se N = 5, então SOMA = 1 + 2 + 3 + 4 + 5

@@ -1,4 +1,4 @@
-1. Gratificação de natal (IF)
+# Exercício 01 - Gratificação de natal (IF)
 
     - Uma empresa decidiu dar uma gratificação de Natal a seus funcionários, baseada no número de horas extras e no número de horas que o funcionário faltou ao trabalho. 
     

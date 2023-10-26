@@ -1,4 +1,4 @@
-13. Altura e sexo (IF)
+# Exercício 13 - Altura e sexo (IF)
 
     - Tendo como entrada a altura e o sexo de uma pessoa:
         - Codificado da seguinte forma: 

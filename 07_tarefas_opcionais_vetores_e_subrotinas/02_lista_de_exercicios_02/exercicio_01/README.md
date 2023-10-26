@@ -1,4 +1,7 @@
-01)	Criar um programa que:
-    - Leia o salário de um funcionário;
+# Exercício 01
+
+    - Criar um programa que:
     
-    - Apresente na tela o salário do funcionário com reajuste de 15%.
+        - Leia o salário de um funcionário;
+        
+        - Apresente na tela o salário do funcionário com reajuste de 15%.

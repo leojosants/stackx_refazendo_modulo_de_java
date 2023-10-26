@@ -1,4 +1,4 @@
-20. Eliminar redundâncias (IF)
+# Exercício 20 - Eliminar redundâncias (IF)
 
     - Elimine os testes reduntantes do trecho de código abaixo:
 

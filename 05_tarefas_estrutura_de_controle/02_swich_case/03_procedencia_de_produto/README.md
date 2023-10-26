@@ -1,4 +1,4 @@
-3. Estruturas condicionais e de repetição: Procedência de produto (Switch Case)
+# Exercício 03 - Estruturas condicionais e de repetição: Procedência de produto (Switch Case)
 
     - Faça um programa que receba o preço de um produto e seu código de origem e mostre sua procedência. 
     

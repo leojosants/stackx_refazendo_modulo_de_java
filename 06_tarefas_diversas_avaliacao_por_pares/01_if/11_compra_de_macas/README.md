@@ -1,4 +1,4 @@
-11. Compra de maçâs (IF)
+# Exercício 11 - Compra de maçâs (IF)
 
     - As maçãs custam R$ 0,30 cada se forem compradas menos do que uma dúzia;
     

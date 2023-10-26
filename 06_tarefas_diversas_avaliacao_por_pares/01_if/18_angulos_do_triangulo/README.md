@@ -1,4 +1,4 @@
-18. Ângulos do triângulo (IF)
+# Exercício 18 - Ângulos do triângulo (IF)
 
     - Escreva um programa que leia o valor de 3 ângulos de um triângulo;
     

@@ -1,4 +1,4 @@
-2. Estruturas condicionais e de repetição: 
+# Exercício 02 - Estruturas condicionais e de repetição: 
     
     - Tabuada com entrada do usuário (FOR)
     

@@ -1,4 +1,4 @@
-21. Responder sobre as situações (IF)
+# Exercício 21 - Responder sobre as situações (IF)
 
     - Dado o trecho do programa esquemático abaixo, responda:
         - a) Quais comandos serão executados se cond1 e cond2 forem verdadeiras e cond3 for falsa?

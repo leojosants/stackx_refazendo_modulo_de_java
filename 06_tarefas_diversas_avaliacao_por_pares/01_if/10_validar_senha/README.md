@@ -1,4 +1,4 @@
-10. Validar senha (IF)
+# Exercício 10 - Validar senha (IF)
 
     - Escreva um programa que verifique a validade de uma senha fornecida pelo usuário. 
     

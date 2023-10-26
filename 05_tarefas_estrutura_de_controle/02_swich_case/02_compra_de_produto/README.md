@@ -1,4 +1,4 @@
-2. Estruturas condicionais e de repetição: Compra de produto (Switch Case)
+# Exercício 02 - Estruturas condicionais e de repetição: Compra de produto (Switch Case)
     - Faça um programa que receba:
         - O código do produto comprado;
         - A quantidade comprada do produto.

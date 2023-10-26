@@ -1,4 +1,4 @@
-6. Receber nomes e salários (While)
+# Exercício 06 - Receber nomes e salários (While)
 
     - Faça um programa que receba o salário de um funcionário chamado Carlos. 
     

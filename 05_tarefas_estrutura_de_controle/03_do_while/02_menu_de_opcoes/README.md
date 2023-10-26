@@ -1,4 +1,4 @@
-2. Estruturas condicionais e de repetição: Menu de opções (Do-While)
+# Exercício 02 - Estruturas condicionais e de repetição: Menu de opções (Do-While)
 
     - Faça um programa que apresente o menu de opções a seguir, permita ao usuário escolher a opção desejada, receba os dados necessários para executar a operação e mostre o resultado. 
     

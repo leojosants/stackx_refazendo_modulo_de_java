@@ -1,4 +1,4 @@
-1. Estruturas condicionais e de repetição: Preço de produtos (Swich Case)
+# Exercício 01 - Estruturas condicionais e de repetição: Preço de produtos (Swich Case)
 
     - Faça um programa que receba:
         - Preço;

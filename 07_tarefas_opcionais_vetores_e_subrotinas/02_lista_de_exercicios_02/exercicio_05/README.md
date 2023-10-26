@@ -1,8 +1,12 @@
-05)	Criar um programa que:
+# Exercício 05
 
-    - Leia pelo teclado um valor inteiro:
-    
-    - Imprima:
-        - Se é par;
+    - Criar um programa que:
+
+        - Leia pelo teclado um valor inteiro:
         
-        - Ou se é ímpar;
+
+        - Imprima:
+        
+            - Se é par;
+            
+            - Ou se é ímpar;

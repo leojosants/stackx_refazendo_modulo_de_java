@@ -9,7 +9,7 @@ public class App {
         try {
 
             int numberOfNumbersToBeReceived = 0;
-            int numbersReceived[];
+            int numbersReceived_vector[];
 
             do {
                 System.out.print(
@@ -17,14 +17,14 @@ public class App {
                 numberOfNumbersToBeReceived = scanner.nextInt();
             } while (numberOfNumbersToBeReceived < 0);
 
-            numbersReceived = new int[numberOfNumbersToBeReceived];
+            numbersReceived_vector = new int[numberOfNumbersToBeReceived];
 
-            FillVector(numbersReceived, scanner);
+            FillVector(numbersReceived_vector, scanner);
 
             System.out.println("\nExibindo informação");
 
-            PrintLargerNumber(numbersReceived);
-            PrintSmallestNumber(numbersReceived);
+            PrintLargerNumber(numbersReceived_vector);
+            PrintSmallestNumber(numbersReceived_vector);
 
         } catch (InputMismatchException e) {
             System.out.println("--> Erro: entrada de inválida de dados");

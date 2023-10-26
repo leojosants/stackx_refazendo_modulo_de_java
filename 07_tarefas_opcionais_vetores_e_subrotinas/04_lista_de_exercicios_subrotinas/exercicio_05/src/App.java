@@ -9,12 +9,12 @@ public class App {
         try {
 
             int numberOfStudents = RequestNumberOfStudents(scanner);
-            double averagesReceived[] = new double[numberOfStudents];
+            double averagesReceived_vector[] = new double[numberOfStudents];
 
-            FillVectorWithReceivedAverages(averagesReceived, scanner);
+            FillVectorWithReceivedAverages(averagesReceived_vector, scanner);
 
-            double copyAveragesReceived[] = CopyVector(averagesReceived);
-            double overallAverage = CalculateOverallAverage(copyAveragesReceived);
+            double copyAveragesReceived_vector[] = CopyVector(averagesReceived_vector);
+            double overallAverage = CalculateOverallAverage(copyAveragesReceived_vector);
 
             DisplayData(overallAverage);
 
@@ -53,9 +53,9 @@ public class App {
     }
 
     public static double[] CopyVector(double vector[]) {
-        double vectorCopied[] = new double[vector.length];
-        System.arraycopy(vector, 0, vectorCopied, 0, vector.length);
-        return vectorCopied;
+        double copy_vector[] = new double[vector.length];
+        System.arraycopy(vector, 0, copy_vector, 0, vector.length);
+        return copy_vector;
     }
 
     public static double CalculateOverallAverage(double vector[]) {

@@ -8,11 +8,11 @@ public class App {
 
         try {
 
-            int numbers[] = { 56, 48, 9, 48, 60, 13, 24, 27, 13, 56, 85, 9, 48, 55, 9 };
-            int numbersCopy[] = PerformsVectorCopy(numbers);
+            int numbers_vector[] = { 56, 48, 9, 48, 60, 13, 24, 27, 13, 56, 85, 9, 48, 55, 9 };
+            int numbersCopy_vector[] = PerformsVectorCopy(numbers_vector);
             int numberReceived = ReceivesDataFromTheKeyboard(scanner);
 
-            SearchForElementsInTheVector(numbersCopy, numberReceived);
+            SearchForElementsInTheVector(numbersCopy_vector, numberReceived);
 
         } catch (InputMismatchException e) {
             System.out.println("Erro: entrada inválida de dados");
@@ -28,9 +28,9 @@ public class App {
 
     /* SUB-ROUTINES */
     public static int[] PerformsVectorCopy(int vector[]) {
-        int vectorCopied[] = new int[vector.length];
-        System.arraycopy(vector, 0, vectorCopied, 0, vector.length);
-        return vectorCopied;
+        int copy_vector[] = new int[vector.length];
+        System.arraycopy(vector, 0, copy_vector, 0, vector.length);
+        return copy_vector;
     }
 
     public static int ReceivesDataFromTheKeyboard(Scanner scanner) {

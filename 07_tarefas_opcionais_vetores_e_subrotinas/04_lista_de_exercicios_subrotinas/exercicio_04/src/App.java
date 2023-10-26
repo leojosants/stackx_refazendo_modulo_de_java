@@ -9,15 +9,15 @@ public class App {
         try {
 
             int vectorLength = 10;
-            int numbers[] = new int[vectorLength];
-            int numbersCopy[];
+            int numbers_vector[] = new int[vectorLength];
+            int numbersCopy_vector[];
 
-            FillVector(numbers, scanner);
+            FillVector(numbers_vector, scanner);
 
-            numbersCopy = MakeVectorCopy(numbers);
+            numbersCopy_vector = MakeVectorCopy(numbers_vector);
 
-            CheckOddNnumber(numbersCopy);
-            CheckEvenNumber(numbersCopy);
+            CheckOddNnumber(numbersCopy_vector);
+            CheckEvenNumber(numbersCopy_vector);
 
         } catch (InputMismatchException e) {
             System.out.println("--> Erro: entrada inválida de dados");

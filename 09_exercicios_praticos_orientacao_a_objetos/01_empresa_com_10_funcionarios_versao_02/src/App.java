@@ -3,7 +3,7 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
-import classes.Employee;
+import classes.EmployeeV2;
 import classes.PayStub;
 
 public class App {
@@ -26,7 +26,7 @@ public class App {
                 char employeeWorkShift = requestEmployeeWorkShift(scanner);
                 char employeeJobCategory = requestEmployeeJobCategory(scanner);
 
-                Employee employee = new Employee(employeeCode, employeeWorkShift,
+                EmployeeV2 employee = new EmployeeV2(employeeCode, employeeWorkShift,
                         employeeJobCategory);
 
                 PayStub payStub = new PayStub(employee);

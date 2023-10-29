@@ -26,7 +26,8 @@ public class App {
                 char employeeWorkShift = requestEmployeeWorkShift(scanner);
                 char employeeJobCategory = requestEmployeeJobCategory(scanner);
 
-                employee_vector[counter] = new Employee(employeeCode, numberOfHoursWorkedInTheMonth, employeeWorkShift, employeeJobCategory);
+                employee_vector[counter] = new Employee(employeeCode, numberOfHoursWorkedInTheMonth, employeeWorkShift,
+                        employeeJobCategory);
 
                 System.out.println("-> Funcionário cadastrado com sucesso");
                 System.out.println("\n=====**=====**=====Funcionário cadastrado com sucesso=====**=====**=====");

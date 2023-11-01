@@ -14,7 +14,7 @@ public class App {
         try {
 
             List<PayStub> payStub_list = new ArrayList<PayStub>();
-            int totalNumberOfEmployees = 2;
+            int totalNumberOfEmployees = 10;
 
             System.out.println("\nEntre com os dados abaixo");
 

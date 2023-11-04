@@ -1,0 +1,17 @@
+## M�todos Construtores ##
+
+- Respons�veis por criar o objeto na mem�ria, instanciando a classe
+
+- Determina quais a��es devem ser executadas um objeto � criado
+
+- Em Java, deve conter o mesmo nome da classe
+ 
+- N�o possui indica��o do tipo de retorno
+
+- � apenas chamado no momento da cria��o (instancia��o) do objeto por meio do operador new
+
+- Uma classe pode ter um ou v�rios m�todos construtores
+	- S�o diferenciados pelos par�metros
+
+- Caso n�o criado, o Java gera automaticamente um construtor padr�o vazio 
+	- Ao criar algum, o construtor padr�o deixa de existir

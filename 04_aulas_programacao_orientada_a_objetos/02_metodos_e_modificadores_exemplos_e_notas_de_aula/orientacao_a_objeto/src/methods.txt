@@ -1,0 +1,27 @@
+## M�todos ##
+
+Estrutura de um m�todo
+	- declara��o e corpo
+	
+- Qualificador 
+   - Define a visibilidade do m�todo
+   - Veja as dicas da documenta��o! Link: https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html
+   - N�vel de visibilidade:
+  		- public: qualquer classe
+  		- protected: pr�pria classe, subclasses e classes do mesmo pacote
+		- sem modificador: pr�pria classe e classes do mesmo pacote
+  		- private: vis�vel apenas pela pr�pria classe
+
+- Tipo do retorno
+	- void: n�o retorna valor
+	- Tipos Primitivos: byte, int, short, long, float, double e char
+	- Vetores: int[], String[]...
+	- Tipos de refer�ncia (Tipos Objetos): String, Scanner, Pessoa, Funcionario...
+
+- Nome do m�todo
+	- qualquer palavra ou frase, de prefer�ncia, um verbo
+	- padr�o: camelCase
+
+- Lista de par�metros
+	- lista de vari�veis que podem ser recebidas pelo m�todo
+	

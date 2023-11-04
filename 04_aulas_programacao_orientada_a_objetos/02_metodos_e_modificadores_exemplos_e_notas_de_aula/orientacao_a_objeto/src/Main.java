@@ -1,21 +1,21 @@
-import classes.Car;
-import classes.Person;
+import classes.Car1;
+import classes.Person5;
 
 public class Main {
 
 	public static void main(String[] args) {
 
-		Person person_1 = new Person("Amanda", "Silva", 15);
+		Person5 person_1 = new Person5("Amanda", "Silva", 15);
 		
-		Person person_2 = new Person("Carlos", "Jose", 23);
+		Person5 person_2 = new Person5("Carlos", "Jose", 23);
 		
-		Person person_3 = new Person(18);		
+		Person5 person_3 = new Person5(18);		
 		person_3.increaseAge();
 		
-		Car car_1 = new Car();
+		Car1 car_1 = new Car1();
 		// car_1.setModel("i30");
 		
-		Car car_2 = new Car();
+		Car1 car_2 = new Car1();
 		car_2.setModel("fusca");
 		car_2.setOwner(person_2);
 		

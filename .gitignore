@@ -1,4 +1,4 @@
-out
+# out
 .classpath
 .project
 .settings
@@ -8,10 +8,10 @@ out
 *.class
 *.swp
 target
-classes
+# classes
 build
 bin
-classes
+# classes
 *~
-compile.sh
-run.sh
+# compile.sh
+# run.sh

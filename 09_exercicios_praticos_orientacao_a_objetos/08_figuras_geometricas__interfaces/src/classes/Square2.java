@@ -1,6 +1,6 @@
 package classes;
 
-public class Square extends GeometricFigure {
+public class Square2 implements GeometricFigure2 {
     /*
      * attributes
      */
@@ -9,9 +9,9 @@ public class Square extends GeometricFigure {
     /*
      * constructor
      */
-    public Square() {
+    public Square2() {
     }
-    public Square(double side_measurement) {
+    public Square2(double side_measurement) {
         setSideMeasurement(side_measurement);
     }
 

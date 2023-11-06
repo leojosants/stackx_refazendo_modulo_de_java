@@ -8,7 +8,7 @@ import classes.Reptil2;
 import classes.Snake2;
 import classes.Turtle2;
 
-public class App {
+public class App2 {
     public static void main(String[] args) throws Exception {
 
         Mammal2 mammal_1 = new Mammal2();

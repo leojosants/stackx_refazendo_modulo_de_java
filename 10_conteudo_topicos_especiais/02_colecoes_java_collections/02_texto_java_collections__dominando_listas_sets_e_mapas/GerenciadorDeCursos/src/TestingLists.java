@@ -1,5 +1,6 @@
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class TestingLists {
     public static void main(String[] args) throws Exception {
@@ -36,5 +37,13 @@ public class TestingLists {
             System.out.println("Percorrendo: ");
             System.out.printf("Aula: %s%n", class_string);
         });
+        System.out.println();
+        
+        classes_list.add("Aumentando nosso conhecimento");
+        System.out.println(classes_list);
+        System.out.println();
+        
+        Collections.sort(classes_list);
+        System.out.printf("Depois de ordenado: %s%n",classes_list);
     }
 }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestingLists",
+            "request": "launch",
+            "mainClass": "br.com.alura.TestingLists",
+            "projectName": "stackx_refazendo_modulo_de_java_bad5d558"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

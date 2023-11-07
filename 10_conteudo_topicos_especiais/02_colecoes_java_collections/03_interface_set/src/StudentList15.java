@@ -14,11 +14,11 @@ public class StudentList15 {
         Student15 student_3 = new Student15("Lúcia Ferreira", "Banco de Dados", 0.0);
         Student15 student_4 = new Student15("Antonio Sousa", "Java", 0.0);
 
-        set_of_students.add(student_1);
-        set_of_students.add(student_2);
-        set_of_students.add(student_3);
-        set_of_students.add(student_4);
-        
+        System.out.println("adicionado: " + set_of_students.add(student_1));
+        System.out.println("adicionado: " + set_of_students.add(student_2));
+        System.out.println("adicionado: " + set_of_students.add(student_3));
+        System.out.println("adicionado: " + set_of_students.add(student_4));
+
         System.out.println(set_of_students);
     }
 }

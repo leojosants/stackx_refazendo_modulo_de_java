@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 import br.com.alura.classes.Classs;
 
@@ -14,6 +15,9 @@ public class TestClassList {
         classs_list.add(class_2);
         classs_list.add(class_3);
 
+        System.out.println(classs_list);
+        
+        Collections.sort(classs_list);
         System.out.println(classs_list);
     }
 }

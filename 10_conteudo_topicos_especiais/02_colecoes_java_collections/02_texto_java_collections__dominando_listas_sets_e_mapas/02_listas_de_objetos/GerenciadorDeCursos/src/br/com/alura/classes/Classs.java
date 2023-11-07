@@ -1,6 +1,6 @@
 package br.com.alura.classes;
 
-public class Classs {
+public class Classs implements Comparable<Classs> {
     /*
      * Attributes
      */
@@ -36,6 +36,11 @@ public class Classs {
 
     public void printClass() {
         System.out.println(toString());
+    }
+
+    @Override
+    public int compareTo(Classs other_class) {
+        return this.getTitle().compareTo(other_class.getTitle());
     }
 
 }

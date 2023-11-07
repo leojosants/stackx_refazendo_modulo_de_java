@@ -1,6 +1,4 @@
-package br.com.alura.classes;
-
-import classes.Classs;
+package classes;
 
 public class Classs implements Comparable<Classs> {
     /*

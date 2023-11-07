@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-import br.com.alura.classes.Classs;
+import classes.Classs;
 
 public class TestClassList {
     public static void main(String[] args) {

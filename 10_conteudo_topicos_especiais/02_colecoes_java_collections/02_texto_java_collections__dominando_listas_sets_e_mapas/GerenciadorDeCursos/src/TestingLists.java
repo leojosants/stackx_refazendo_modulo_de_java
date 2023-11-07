@@ -14,5 +14,9 @@ public class TestingLists {
         classes_list.add(class_3);
 
         System.out.println(classes_list);
+        
+        classes_list.remove(0);
+        
+        System.out.println(classes_list);
     }
 }

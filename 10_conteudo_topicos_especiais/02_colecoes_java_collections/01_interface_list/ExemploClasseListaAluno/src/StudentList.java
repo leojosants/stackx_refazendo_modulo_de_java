@@ -2,12 +2,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import classes.ComparesStudent;
 import classes.Student13;
 
 public class StudentList {
     public static void main(String[] args) throws Exception {
 
         List<Student13> list_of_students = new ArrayList<Student13>();
+        ComparesStudent compares_student = new ComparesStudent();
 
         Student13 student_1 = new Student13("João da Silva", "Linux", 0.0);
         Student13 student_2 = new Student13("Antonio Sousa", "Java", 0.0);
@@ -18,6 +20,9 @@ public class StudentList {
         list_of_students.add(student_3);
 
         System.out.println(list_of_students);
-
+        
+        Collections.sort(list_of_students, compares_student);
+        
+        System.out.println(list_of_students);
     }
 }

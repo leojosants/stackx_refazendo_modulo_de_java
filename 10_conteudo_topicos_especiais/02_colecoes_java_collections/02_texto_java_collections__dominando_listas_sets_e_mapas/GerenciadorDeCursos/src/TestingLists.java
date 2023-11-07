@@ -12,15 +12,24 @@ public class TestingLists {
         classes_list.add(class_1);
         classes_list.add(class_2);
         classes_list.add(class_3);
-
         System.out.println(classes_list);
 
         classes_list.remove(0);
-
         System.out.println(classes_list);
-
+        System.out.println();
+        
         for (String class_string : classes_list) {
             System.out.printf("Aula: %s%n", class_string);
+        }
+
+        System.out.println();
+        
+        String first_class = classes_list.get(0);
+        System.out.printf("A primeira aula é: %s%n", first_class);
+        System.out.println();
+
+        for (int i = 0; i < classes_list.size(); i++) {
+            System.out.printf("Aula: %s%n", classes_list.get(i));
         }
     }
 }

@@ -1,12 +1,8 @@
 package classes;
 
-
-
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
-
-import br.com.alura.classes.Classs;
 
 public class Course {
     /*

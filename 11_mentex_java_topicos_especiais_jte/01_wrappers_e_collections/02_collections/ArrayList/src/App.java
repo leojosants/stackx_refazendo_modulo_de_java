@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
+import java.util.List;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -13,8 +13,10 @@ public class App {
      * methods
      */
     private static void stringCollections() {
+
+        // arrayList - permite objetos iguais, organiza conforme a ordem inserida
         // criar ArrayList
-        ArrayList<String> teachers_list = new ArrayList<String>();
+        List<String> teachers_list = new ArrayList<String>();
 
         // adicionar objetos
         teachers_list.add("Leonardo");

@@ -35,7 +35,7 @@ public class App {
         student_list.add(student_2);
 
         processPersons(teacher_list);
-        processPersons(student_list);
+        // processPersons(student_list);
     }
 
     /*

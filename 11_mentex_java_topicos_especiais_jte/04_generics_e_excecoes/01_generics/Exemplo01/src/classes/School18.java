@@ -1,6 +1,6 @@
 package classes;
 
-public class School {
+public class School18 {
     /*
      * attributes
      */

@@ -14,13 +14,13 @@ public class App {
 
                 System.out.printf("%d / %d = %d%n", numbers[i], denominator[i], (numbers[i] / denominator[i]));
 
-            } catch (ArithmeticException  e) {
+            } catch (ArithmeticException e) {
                 System.out.println("-> não é possível realizar divisão por zero");
-            
-            } catch ( ArrayIndexOutOfBoundsException e) {
+
+            } catch (ArrayIndexOutOfBoundsException e) {
                 System.out.println("-> não é possível acessar um indice inexistente");
-            
-            } catch (  NotExactDivision e) {
+
+            } catch (NotExactDivision e) {
                 System.out.println(e);
                 // e.printStackTrace();
             }

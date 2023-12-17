@@ -1,68 +1,16 @@
-/*package application;
-
-import java.util.HashSet;
-import java.util.Set;
-
-public class Program {
-
-	private static Set<String> generateInstanceHashSet() {
-		return new HashSet<>();
-	}
-
-	private static int maxLength(Set<String> set) {
-		int count = 0;
-
-		if (set.isEmpty()) {
-			return 0;
-		}
-		else {
-			for (String string : set) {
-				if (string.length() > count) {
-					count = string.length();
-				}
-			}
-		}
-		return count;
-	}
-
-	private static void displayData(Set<String> set) {
-		int count = maxLength(set);
-
-		System.out.println("\n----- Exibindo resultado -----");
-		
-		if(count == 0) {
-			System.out.println("O conjunto está vazio");
-		}
-		else {
-			System.out.printf("A string de maior comprimento no conjunto tem '%d' caracteres", count);			
-		}
-
-	}
-
-	private static void runProgram() {
-		Set<String> programming_languages_set = generateInstanceHashSet();
-		programming_languages_set.add("JavaScript");
-		programming_languages_set.add("Java");
-		programming_languages_set.add("Python");
-		programming_languages_set.add("PHP");
-		displayData(programming_languages_set);
-	}
-
-	public static void main(String[] args) {
-		runProgram();
-	}
-}
-*/
-
+/*-------------------- packages section --------------------*/
 package application;
 
+/*-------------------- imports section --------------------*/
 import java.util.HashSet;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.Set;
 
+/*-------------------- packages section --------------------*/
 public class Program {
 
+	/*-------------------- functions section --------------------*/
 	private static Scanner generateInstanceScanner() {
 		return new Scanner(System.in);
 	}
@@ -185,6 +133,7 @@ public class Program {
 		}
 	}
 
+	/*-------------------- main method --------------------*/
 	public static void main(String[] args) {
 		runProgram();
 		displayMessageEndOfProgram();
